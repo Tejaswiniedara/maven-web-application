@@ -72,4 +72,7 @@ def slacknotification(String buildStatus = 'STARTED') {
     color = 'RED'
     colorCode = '#FF0000'
   }
+// Send notification
+  slackSend (color: colorCode, message: summary)
+}
 
