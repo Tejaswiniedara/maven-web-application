@@ -72,4 +72,4 @@ def slacknotification(String buildStatus = 'STARTED') {
     color = 'RED'
     colorCode = '#FF0000'
   }
-}
+
